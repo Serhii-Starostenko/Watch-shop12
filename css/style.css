@@ -7,6 +7,7 @@
 
 body{
     background-color:var(--bgc);
+    font-family: 'Roboto', sans-serif;
 }
 
 h1,h2,h3{
@@ -41,27 +42,36 @@ a{
     border-bottom: 1px solid var(--akcent-color);
 }
 .navigation{
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    align-items: center;
+    align-items:center;
 }
-.header-logo{
-    display:block;
-   padding: auto;
-    width: 150px;
-    height: 150px;
-    margin-left: 50px;
-    border: 1px solid var(--akcent-color);
-}
-.logo-name{
-    display: flex;
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
-.nav-list{
+.nav-left{
     display:flex;
-    margin-left: 25px;
+    margin-right: 100px;
     margin-bottom: 0px;
 }
-.nav-position{
-margin-right: 25px;
+
+.nav-right{
+    display:flex;
+    margin-bottom: 0px;
+    margin-left: 100px;
+
 }
+.nav-position{
+    margin-right:50px;
+    }
+    .nav-position a{
+        color: var(--akcent-color);
+    }
+    .nav-position a:hover,.nav-position a:focus{
+        color:var(--secondary-txt-color);
+    }
