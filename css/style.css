@@ -1,6 +1,7 @@
 :root{
     --akcent-color:#ffd700;
     --secondary-txt-color:rgba(255,215, 0, 0.8);
+    --hover-color:#020082;
     --bgc:#000;
    
 }
@@ -12,11 +13,29 @@ body{
 
 h1,h2,h3{
 color: var(--akcent-color);
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
 }
+h1{
+   color: var(--akcent-color);
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height:1.36;
 
+}
 
 p{
     color: rgba(255,215, 0, 0.8);
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
 }
 
 ul {list-style: none;
@@ -32,14 +51,23 @@ a{
     padding-right: 15px;
     padding-top: 15px;
     margin: 0,auto;
+    border-bottom: 1px solid var(--akcent-color);
 
 
 }
+.header-button{
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    background-color: var(--akcent-color);
+    color:var(--bgc);
+    border-radius: 4px;
+}
 .header-position{
-    height: 100px;
+    height: 50px;
     display:flex;
     align-items: center;
-    border-bottom: 1px solid var(--akcent-color);
+    
 }
 .navigation{
     margin-left: auto;
@@ -73,5 +101,28 @@ a{
         color: var(--akcent-color);
     }
     .nav-position a:hover,.nav-position a:focus{
-        color:var(--secondary-txt-color);
+        color:var(--hover-color);
     }
+
+                                        /* HERO!!!! */
+.hero{
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.hero-titile{
+    display: flex;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-button{
+    cursor: pointer;
+    width: 80px;
+    height: 60px;
+    background-color: var(--akcent-color);
+    color:var(--bgc);
+    border-radius: 4px;
+}
