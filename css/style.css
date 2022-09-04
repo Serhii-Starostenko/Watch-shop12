@@ -9,9 +9,10 @@
 body{
     background-color:var(--bgc);
     font-family: 'Roboto', sans-serif;
+
 }
 
-h1,h2,h3{
+h2,h3{
 color: var(--akcent-color);
 font-style: normal;
 font-weight: 700;
@@ -39,6 +40,7 @@ letter-spacing: 0.03em;
 }
 
 ul {list-style: none;
+    margin-top: 0px;
     
 }
 a{
@@ -46,7 +48,10 @@ a{
 }
 
 .container{
-    width: 1200px;
+    display: inline-block;
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
     /* padding-top: 15px; */
@@ -75,7 +80,8 @@ a{
     border: solid 1px var(--hover-color);
 }
 .header-position{
-    height: 50px;
+    padding-top: 10px;
+   
     display:flex;
     align-items: center;
     
@@ -88,6 +94,7 @@ a{
 }
 
 .logo{
+
     margin-left: auto;
     margin-right: auto;
     
@@ -119,22 +126,30 @@ a{
 .hero{
     background-image:url(/icon/hero-bgc.jpg);
     height: 500px;
-    display:flex;
+    display:inline-block;
     margin-left: auto;
     margin-right: auto;
+    text-align:center;
 
 }
 
-.hero-titile{
-    display: flex;
+.hero-title{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    display:inline-block;
+    
     
     margin-left: auto;
     margin-right: auto;
 }
 .hero-button{
+display: inline-block;
+margin-bottom: 200px;
+margin-left: auto;
+    margin-right: auto;
     cursor: pointer;
-    width: 80px;
-    height: 60px;
+    width: 200px;
+    height: 50px;
     background-color: var(--akcent-color);
     color:var(--bgc);
     border-radius: 4px;
