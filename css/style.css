@@ -9,6 +9,7 @@
 body{
     background-color:var(--bgc);
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 
 }
 
@@ -81,7 +82,8 @@ a{
 }
 .header-position{
     padding-top: 10px;
-   
+    margin-left: auto;
+    margin-right: auto;
     display:flex;
     align-items: center;
     
@@ -153,4 +155,34 @@ margin-left: auto;
     background-color: var(--akcent-color);
     color:var(--bgc);
     border-radius: 4px;
+}
+
+                     /* TOP!!!!!! */
+.top{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+   
+}
+.top-list{
+    margin-right: 120px;
+}
+.top-list:nth-child(3){
+    margin-right: 0px;
+}
+ 
+                                          /* Категории!!!!!!!!! */
+
+.filters{
+    display: flex;
+    padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.filters-img{
+    margin-right: 40px;
+}
+.filters-img:last-child{
+margin-right: 0px;
 }
