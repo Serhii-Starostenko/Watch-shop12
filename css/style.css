@@ -125,6 +125,7 @@ border-color: var(--hover-color);
 .header-button:hover,.header-button:focus{
     color: var(--hover-color);
     border: solid 1px var(--hover-color);
+    background-color: var(--akcent-color);
 }
 
 .navigation{
@@ -190,13 +191,14 @@ padding:5px 20px ;
     }
     .nav-position a:hover,.nav-position a:focus{
         color:var(--hover-color);
+        background-color: var(--akcent-color);
     }
 
                                         /* HERO!!!! */
 .hero{
     
     
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(/icon/hero-bgc.jpg) ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(/icon/hero-bgc.jpg) ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -258,6 +260,7 @@ margin-left: auto;
 .top-link:hover,.top-link:focus{
     color: var(--hover-color);
     border:solid 1px currentColor ;
+    background-color: var(--akcent-color);
 }
 .top-kard{
     color: currentColor;
@@ -308,6 +311,7 @@ color:var(--hover-color);
 }
 .filters-link:hover,.filters-link:focus {
     border: solid 1px var(--hover-color) ;
+    background-color: var(--akcent-color);
 }
 .filters-img{
     display:block;
@@ -378,6 +382,7 @@ display: flex;
 }
 .brand-link:hover,.brand-link:focus{
     color: var(--hover-color);
+    background-color: var(--akcent-color);
 }
 
 .brand-logo{
@@ -389,5 +394,91 @@ display: flex;
     fill: currentColor;
 }
                                 /* FOOTER!!!!!!!!! */
+
+.footer{
+    display: flex;
+}
+.footer-logo{
+  display: flex;
+  justify-content: center;
+    margin-right: 50px;
+}
+.footer-address{
+
+  
+}
+.footer-location{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.contact-footer{
+    display:block;
+    margin-bottom: 10px;
+}
+.contact-footer:last-child{
+    margin-bottom: 0px;
+}
+
+.footer-network-blok{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.footer-send{
+color: var(--akcent-color);
+}
+.footer-send:hover,.footer-send:focus{
+    color:var(--hover-color);
+    }
+    .footer-list{
+        display: flex;
+    }
+    .footer-card{
+        display: flex;
+        margin-right: 15px;
+    }
+
+    .footer-card:last-child{
+        margin-right: 0px;
+    }
+.footer-link{
+   display: flex;
+  justify-content:center;
+  align-items: center;
+
+    width: 44px;
+    height: 44px;
+
+
+    border: solid 2px currentColor;
+    border-radius: 50%;
+   color: var(--akcent-color);
+}
+
+.footer-link:hover,.footer-link:focus{
+    color: var(--hover-color);
+    background-color: var(--akcent-color);
+}
+.footer-network{
+    fill: currentColor;
+}
+
+.footer-form{
+    display: flex;
+
+}
+
+.footer-send{
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    color: var(--akcent-color);
+    background-color: var(--bgc);
+}
+
+
+    
 
                             
