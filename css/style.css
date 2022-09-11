@@ -1,9 +1,9 @@
 :root{
     --akcent-color:#ffd700;
     --secondary-txt-color:rgba(255,215, 0, 0.8);
-    --hover-color:#020082;
+    --hover-color:red;
     --bgc:#000;
-   
+    /* #020082 */
 }
 
 body{
@@ -42,6 +42,7 @@ letter-spacing: 0.03em;
 
 ul {list-style: none;
     margin-top: 0px;
+    padding-left: 0px;
     
 }
 a{
@@ -57,6 +58,29 @@ a{
 .button:hover,.button:focus{
 color: var(--hover-color);
 border-color: var(--hover-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+
 }
 
 .header-position{
@@ -156,13 +180,10 @@ padding:5px 20px ;
 
 }
 
-
 .nav-position{
    padding:0 px
    ;
     }
-
-
 
     .nav-position a{
         color: var(--akcent-color);
@@ -218,40 +239,61 @@ margin-left: auto;
    
 }
 .top-titile{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.9;
-    letter-spacing: 0.03em;
     margin-top: 30px;
     margin-bottom: 50px;
 }
 .top-list{
     margin-right: 75px;
-    border: solid 1px var(--akcent-color);
-    border-radius: 4px;
+   
 }
 .top-list:nth-child(3){
     margin-right: 0px;
 }
+.top-link{
+    display: inline-block;
+    color: var(--akcent-color);
+    border: solid 1px currentColor ;
+    border-radius: 4px;
+}
+.top-link:hover,.top-link:focus{
+    color: var(--hover-color);
+    border:solid 1px currentColor ;
+}
+.top-kard{
+    color: currentColor;
+}
+.top-deskription{
+    color: currentColor;
+}
  
                                           /* Категории!!!!!!!!! */
 .filters{
-    
+
     margin-left: auto;
     margin-right: auto;
 }
 .filters-title{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.9;
-    letter-spacing: 0.03em;
+  
     margin-top: 30px;
     margin-bottom: 50px;
 
+}
+
+.filters-link{
+    display: inline-block;
+    border: solid 1px currentColor;
+    border-radius: 4px;
+    
+    color: var(--akcent-color);
+}
+
+.filters-link:hover,.filters-link:focus{
+color:var(--hover-color);
+
+   
+}
+.filters-description{
+    color: currentColor;
 }
 
 .filters-list{
@@ -260,9 +302,92 @@ margin-left: auto;
     margin-left: auto;
     margin-right: auto;
 }
-.filters-img{
-    margin-right: 40px;
+.filters-obgect{
+    margin-right: 35px;
+ 
 }
-.filters-img:last-child{
+.filters-link:hover,.filters-link:focus {
+    border: solid 1px var(--hover-color) ;
+}
+.filters-img{
+    display:block;
+}
+
+
+.filters-obgect:last-child{
 margin-right: 0px;
 }
+                         /* ПРЕЙМУЩЕСТВА!!!!!! */
+.advantages-title{
+    text-align: center;
+}
+.advantages-list{
+    padding-left: 0px;
+display: flex;
+}
+.advantages-card{
+    margin-right: 40px;
+    width: 270px;
+    height: 260;
+    color: var(--akcent-color);
+    border: solid 1px currentColor;
+    border-radius: 4px;
+}
+.advantages-card:last-child{
+    margin-right: 0px;
+}
+.advantages-icon{
+    fill: var(--akcent-color);
+}
+.filters-description{
+    margin-bottom: 10px;
+
+}
+
+                  /* БРЕНДЫ!!!!!!!! */
+
+.brand{
+    margin-top: 30px;
+   
+}
+.brand-list{
+    display: flex;
+    margin-bottom: 30px;
+    
+    margin-right: auto;
+    margin-left: auto;
+}
+.brand-card{
+    display: flex;
+    
+    margin-right: 36px;
+}
+.brand-card:last-child {
+    margin-right: 0px;
+}
+.brand-link{
+   
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    color: var(--akcent-color);
+    border: solid 1px currentColor;
+    border-radius: 4px;
+   
+}
+.brand-link:hover,.brand-link:focus{
+    color: var(--hover-color);
+}
+
+.brand-logo{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 60px;
+    height: 60px;
+    fill: currentColor;
+}
+                                /* FOOTER!!!!!!!!! */
+
+                            
