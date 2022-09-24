@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <Header class="header-position">
         <div class="container" >
@@ -20,7 +22,7 @@
                     
                 </button>
                 <ul class="nav-left">
-                    <li class="nav-position garanty" > <a class="nav-garanty" href="">Гарантия</a></li>
+                    <li class="nav-position garanty" > <a class="nav-garanty" href="#">Гарантия</a></li>
                     <li class="nav-position dilevery"> <a class="nav-dilever" href="./payment-and-delivery.html">Оплата и доставка</a></li>
                  
                 </ul>
@@ -37,7 +39,7 @@
         
 </div>
     </Header>
-<!-- HERO-->
+<!--! HERO-->
     <Section class="hero" >
             <div class="container">
                 <div>
@@ -45,7 +47,7 @@
                 </div>
                     
             <!-- <p class="hero-description">.</p> -->
-            <button class="hero-button" type="button">Заказать</button>
+            <button class="hero-button" type="button"  data-modal-open  >Заказать</button>
         </div>
                 </Section>
                 <section>
@@ -241,5 +243,22 @@
         </div>
     </footer>
 </div>
+
+<div class="backdroup"  data-modal>
+    <div class="modal">
+        <h2>
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, illum ad ducimus eaque cum architecto saepe eligendi dolor
+ enim iste nulla velit tempore accusamus, aliquam repellat tenetur nihil nemo! Eaque!
+        </h2>
+        <p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui fugit excepturi, libero minima dolorum animi sequi repudiandae!
+ Repellendus, ratione natus officiis suscipit aliquam facilis at quia ipsa hic sed qui.
+
+        </p>
+        <button  type="button"   data-modal-close></button>
+    </div>
+</div>
+
+<script src="./js/modal.js"></script>
 </body>
 </html>
