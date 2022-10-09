@@ -18,11 +18,11 @@
         <div class="container" >
         
             <nav class="navigation">
-                <button class="header-button" type="button">
+                
                     
                 </button>
                 <ul class="nav-left">
-                    <li class="nav-position garanty" > <a class="nav-garanty" href="#">Гарантия</a></li>
+                    <li class="nav-position garanty" > <a class="" href="./garanty.html">Гарантия</a></li>
                     <li class="nav-position dilevery"> <a class="nav-dilever" href="./payment-and-delivery.html">Оплата и доставка</a></li>
                  
                 </ul>
@@ -47,7 +47,7 @@
                 </div>
                     
             <!-- <p class="hero-description">.</p> -->
-            <button class="hero-button" type="button"  data-modal-open  >Заказать</button>
+            <button class="hero-button" data-modal-open type="button"    >Заказать</button>
         </div>
                 </Section>
                 <section>
@@ -244,18 +244,49 @@
     </footer>
 </div>
 
-<div class="backdroup"  data-modal>
-    <div class="modal">
-        <h2>
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, illum ad ducimus eaque cum architecto saepe eligendi dolor
- enim iste nulla velit tempore accusamus, aliquam repellat tenetur nihil nemo! Eaque!
-        </h2>
-        <p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui fugit excepturi, libero minima dolorum animi sequi repudiandae!
- Repellendus, ratione natus officiis suscipit aliquam facilis at quia ipsa hic sed qui.
+<div>
+    <div data-modal class="backdroup  is-hidden" >
+        <div class="modal">
+            <h2>
+    Для заказа товара оставьте данные для обратного звонка
+            </h2>
+            <form action="">
 
-        </p>
-        <button  type="button"   data-modal-close></button>
+                <div class="form-container" role="group">
+<label class="form-obgeckt" for="name">Имя</label>
+<input  class="form-input" type="text" id="name"  autofocus>
+
+<label class="form-obgeckt" for="tel"> Телефон</label>
+<input class="form-input" type="tel" id="tel">
+
+<label class="form-obgeckt" for="email"> Емейл
+</label>
+<input class="form-input" type="email" id="email">
+
+<label class="form-obgeckt" for="coments">Оставьте коментарий
+</label>
+<textarea class="form-coments" name="coments" id="coments"  rows="10"></textarea>
+<div>
+
+    <label class="form-obgeckt" for="licens"><input type="checkbox" id="licens">
+        Согласится с соглашением 
+    </label> 
+    <a href="">Лицензионное соглашение.</a>
+</div>
+</div>
+
+<button class="form-submit" type="submit" > Отправить</button>
+
+            </form>
+            
+
+         
+            <button class="modal-close" type="button"   data-modal-close> <svg>
+                <use>
+
+                </use>
+            </svg></button>
+        </div>
     </div>
 </div>
 
