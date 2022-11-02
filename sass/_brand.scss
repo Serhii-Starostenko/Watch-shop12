@@ -1,0 +1,52 @@
+.brand {
+    margin-top: 30px;
+
+}
+
+.brand__list {
+    display: flex;
+    margin-bottom: 30px;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.brand__card {
+    display: flex;
+
+    margin-right: 36px;
+
+    &:last-child {
+            margin-right: 0px;
+        }
+}
+
+
+
+.brand__link {
+
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    color:$akcent-color;
+    border: solid 1px currentColor;
+    border-radius: 4px;
+
+    &:hover,
+        &:focus {
+            color:$hover-color ;
+            background-color: $akcent-color ;
+        }
+}
+
+
+
+.brand__logo {
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 60px;
+    height: 60px;
+    fill: currentColor;
+}

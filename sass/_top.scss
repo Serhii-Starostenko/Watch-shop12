@@ -1,0 +1,56 @@
+.top {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+
+}
+
+.top__titile {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.top__list {
+    margin-right: 75px;
+
+&:nth-child(3) {
+        margin-right: 0px;
+    }
+}
+
+
+.top__link {
+    display: inline-block;
+    position: relative;
+    color: $akcent-color ;
+    border: solid 1px currentColor;
+    border-radius: 4px;
+    overflow: hidden;
+
+    &:hover,
+    &:focus {
+        color: $hover-color ;
+        border: solid 1px currentColor;
+        background-color: $akcent-color ;
+    }
+}
+
+
+
+.top__pedestal {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: $gradient ;
+}
+
+.top__kard {
+    color: currentColor;
+}
+
+.top__deskription {
+    color: currentColor;
+}

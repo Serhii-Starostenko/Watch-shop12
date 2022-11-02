@@ -1,0 +1,37 @@
+.hero {
+
+
+    background-image: linear-gradient($gradient, $gradient), url(/icon/hero-bgc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 500px;
+    display: inline-block;
+
+    text-align: center;
+
+}
+
+.hero__title {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    display: inline-block;
+
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero__button {
+    display: inline-block;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    background-color:  $akcent-color;
+    color: var(--bgc);
+    border-radius: 4px;
+}

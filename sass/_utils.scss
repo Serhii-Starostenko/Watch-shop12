@@ -1,0 +1,118 @@
+body {
+    background-color: $bgc ;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+
+h2,
+h3 {
+    color:$akcent-color;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+h1 {
+    color: $akcent-color;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+}
+p {
+    color: $secondary-txt-color;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+
+ul {
+    list-style: none;
+    margin-top: 0px;
+    padding-left: 0px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    width: 40px;
+    height: 27px;
+    border: 1px solid $akcent-color;
+    border-radius: 4px;
+    padding: 10px 20px;
+
+   &:hover,
+        &:focus {
+            color: $hover-color;
+            border-color: $hover-color;
+        }
+}
+
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+.title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+
+}
+
+.border__img {
+    display:block ;
+}
+
+.header__position {
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.container {
+    display: inline-block;
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0, auto;
+    
+
+
+}

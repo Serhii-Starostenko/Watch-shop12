@@ -1,0 +1,98 @@
+.footer {
+    display: flex;
+}
+
+.footer__logo {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.footer__location {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.contact__footer {
+    display: block;
+    margin-bottom: 10px;
+
+    &:last-child {
+            margin-bottom: 0px;
+        }
+}
+
+
+
+.footer__network__blok {
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.footer__send {
+    color:$akcent-color ;
+
+    &:hover,
+        &:focus {
+            color: $hover-color ;
+        }
+}
+
+
+
+.footer__list {
+    display: flex;
+}
+
+.footer__card {
+    display: flex;
+    margin-right: 15px;
+
+    &:last-child {
+            margin-right: 0px;
+        }
+}
+
+
+
+.footer__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+
+
+    border: solid 2px currentColor;
+    border-radius: 50%;
+    color: $akcent-color ;
+
+    &:hover,
+        &:focus {
+            color:$hover-color ;
+            background-color:$akcent-color ;
+        }
+}
+
+
+
+.footer__network {
+    fill: currentColor;
+}
+
+.footer__form {
+    display: flex;
+
+}
+
+.footer__send {
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    color:$akcent-color ;
+    background-color:$bgc ;
+}
